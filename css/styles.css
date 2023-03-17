@@ -53,6 +53,10 @@ ul {
   font-size: larger;
 }
 
+li{
+  font-style: oblique;
+}
+
 .image {
   float: left;
   width: 300px;
@@ -77,6 +81,7 @@ img {
   border: 8px solid rgba(0, 128, 0, 0.806);
   padding: 20px;
   margin: 50px;
+  margin-top: 25px;
   box-shadow: 5px 5px 10px .5px;
   border-radius: 35px 75px;
   box-sizing: border-box;
