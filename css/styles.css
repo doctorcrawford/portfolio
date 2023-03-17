@@ -1,0 +1,14 @@
+.myProjects {
+  float: left;
+  width: 400px;
+}
+.image {
+  width: 400px;
+}
+img {
+  width: 400px;
+}
+.aboutMe {
+  float: right;
+  width: 300px;
+}
