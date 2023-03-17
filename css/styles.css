@@ -1,14 +1,29 @@
 .myProjects {
   float: left;
-  width: 400px;
+  width: auto;
+  border: 15px solid rgb(0, 128, 0);
+  padding: 20px;
+  margin: 50px;
+  box-shadow: 5px 5px 10px .5px;
+  border-radius: 35px 75px;
 }
-.image {
-  width: 400px;
-}
+/* .image {
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+} */
 img {
-  width: 400px;
+  float: left;
+  width: 300px;
+  object-fit: contain;
 }
 .aboutMe {
-  float: right;
+  float: left;
   width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+  box-shadow: 5px 5px 10px .5px;
+  border-radius: 35px 75px;
 }
