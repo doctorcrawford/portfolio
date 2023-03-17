@@ -17,6 +17,7 @@ h6 {
   text-align: center;
   font-size: larger;
   border: 2px solid rgba(116, 120, 50, 0.298);
+  box-shadow: .5px 2px 3px .2px;
   border-radius: 90px 90px;
   width: 90%;
   color: rgb(51, 52, 25);
@@ -64,10 +65,12 @@ ul {
   object-fit: contain;
   background-color: rgba(143, 142, 142, 0.295);
 }
+
 img {
   width: 300px;
   border-radius: 5px;
 }
+
 .aboutMe {
   clear: both;
   width: auto;
