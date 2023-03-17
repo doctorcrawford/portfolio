@@ -18,8 +18,9 @@ p {
   text-align: center;
 }
 .outer {
-  display:inline;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .myProjects {
   float: left;
