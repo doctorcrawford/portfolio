@@ -1,8 +1,8 @@
 body {
-  /* background-color: rgb(203, 228, 250); */
   background-color: #92c1f4;
   background-image: url("https://www.transparenttextures.com/patterns/blizzard.png");
 }
+
 h1 {
   margin-top: 35px;
   color: rgb(76, 142, 41);
@@ -11,30 +11,47 @@ h1 {
   text-shadow: -1px -1px 0 #e7e7e7, 1px -1px 0 #e7e7e7, -1px 1px 0 #e7e7e7, 1px 1px 0 #e7e7e7;
   text-align: center;
 }
+
+h6 {
+  font-family: Quicksand;
+  text-align: center;
+  font-size: larger;
+  border: 2px solid rgba(0, 0, 0, 0.298);
+  border-radius: 90px 90px;
+  width: 90%;
+  color: antiquewhite;
+}
+
 p {
   font-family: Quicksand;
   font-weight: 500;
   font-size: large;
   text-align: center;
 }
+
 .outer {
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .myProjects {
   float: left;
   width: auto;
-  border: 15px solid rgb(0, 128, 0);
+  border: 8px solid rgba(0, 128, 0, 0.806);
   padding: 20px;
   margin: 50px;
   box-shadow: 5px 5px 10px .5px;
   border-radius: 35px 75px;
   background-color: rgba(245, 245, 220, 0.386);
 }
+
 ul {
   font-weight: bold;
+  font-family: Quicksand;
+  font-size: larger;
 }
+
 .image {
   float: left;
   width: 300px;
@@ -54,7 +71,7 @@ img {
 .aboutMe {
   clear: both;
   width: auto;
-  border: 15px solid green;
+  border: 8px solid rgba(0, 128, 0, 0.806);
   padding: 20px;
   margin: 50px;
   box-shadow: 5px 5px 10px .5px;
@@ -62,15 +79,18 @@ img {
   box-sizing: border-box;
   background-color: rgba(245, 245, 220, 0.386);
 }
+
 .aboutMe p {
   text-align: left;
 }
+
 .knicks {
   font-weight: bold;
   font-size: larger;
   color: rgb(255, 166, 0);
   text-shadow: -1px -1px 0 #000dff, 1px -1px 0 #000dff, -1px 1px 0 #000dff, 1px 1px 0 #000dff;
 }
+
 @font-face {
   font-family: "Quicksand";
   src: url('fonts/Quicksand/static/Quicksand-Regular.ttf');
