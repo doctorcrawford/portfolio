@@ -8,11 +8,14 @@ h1 {
   color: rgb(157, 0, 0);
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-weight: bold;
+  text-shadow: -1px -1px 0 #e7e7e7, 1px -1px 0 #e7e7e7, -1px 1px 0 #e7e7e7, 1px 1px 0 #e7e7e7;
+  text-align: center;
 }
 p {
   font-family: Quicksand;
   font-weight: 500;
   font-size: large;
+  text-align: center;
 }
 .myProjects {
   float: left;
@@ -22,6 +25,10 @@ p {
   margin: 50px;
   box-shadow: 5px 5px 10px .5px;
   border-radius: 35px 75px;
+  background-color: rgba(245, 245, 220, 0.386);
+}
+ul {
+  font-weight: bold;
 }
 .image {
   float: left;
@@ -33,6 +40,7 @@ p {
   margin: 50px;
   box-sizing: content-box;
   object-fit: contain;
+  background-color: rgba(143, 142, 142, 0.295);
 }
 img {
   width: 300px;
@@ -47,6 +55,16 @@ img {
   box-shadow: 5px 5px 10px .5px;
   border-radius: 35px 75px;
   box-sizing: border-box;
+  background-color: rgba(245, 245, 220, 0.386);
+}
+.aboutMe p {
+  text-align: left;
+}
+.knicks {
+  font-weight: bold;
+  font-size: larger;
+  color: rgb(255, 166, 0);
+  text-shadow: -1px -1px 0 #000dff, 1px -1px 0 #000dff, -1px 1px 0 #000dff, 1px 1px 0 #000dff;
 }
 @font-face {
   font-family: "Quicksand";
